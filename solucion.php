@@ -1,3 +1,4 @@
+<?php
 # 1.- Copiar tu aplicación a la raíz del hosting, quedarás con las típicas carpetas de Laravel: app, bootstrap, public, vendor y los demás archivos
 # 2.- Mover todo el contenido de 'public' a la raíz y eliminar esa carpeta, o si quieres dejarla, da igual
 # 3.- Ahora en la raíz tendrás tu archivo index.php que debes editar así:
@@ -26,3 +27,4 @@ $app = require_once __DIR__.'/bootstrap/start.php';
 
 # Más código ...
 # 5.- Probar
+?>
